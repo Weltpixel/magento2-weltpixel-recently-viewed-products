@@ -1,0 +1,20 @@
+{
+    "name": "weltpixel/magento2-recently-viewed-products",
+    "description": "WeltPixel Advanced Recently Viewed Module",
+    "require": {
+        "magento/module-admin-notification": "*",
+        "magento/module-catalog": "*",
+        "magento/module-cms": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.15.9",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WeltPixel\\RecentlyViewedBar\\": ""
+        }
+    }
+}
